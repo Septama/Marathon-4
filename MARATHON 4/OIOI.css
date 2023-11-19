@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+    height: 150vh;
+}
+header{
+    background-color: rgb(37, 159, 240);
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+header .info{
+text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+header nav ul li a{
+    font-size: 1.4rem;
+    margin: 0 5px
+}
+header nav ul li a:hover{
+    color: black;
+}
+main section .content{
+    margin: 0 50px ;
+    text-align: center;
+}
+main aside .content{
+    margin: 50px 50px;
+}
+main aside .content img{
+    height: 100%;
+    width: 100%;
+}
+main section .content img{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 800px;
+}
+form ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/Logo-ILC.png);
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+form ul li label{
+    color: black;
+}
+form ul .judul{
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 700;
+}
+form ul li .input{
+    height: 20px;
+    width: 100%;
+    color: black;
+}
+form ul .submit{
+    height: 20px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+form ul #submit{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+footer{
+    height: 80px;
+    color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    main{
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    main aside{
+        height: 30%;
+        width: 50%;
+    }
+}
